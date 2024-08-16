@@ -1,0 +1,1 @@
+Open the solutiton and update every NuGet package required, you can simply just press the update button
