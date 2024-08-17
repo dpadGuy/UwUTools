@@ -1,5 +1,4 @@
 <H1 align="center">UwUTools</H1>
-<p align="center">(does not get updates anymore)</p>
 
 **UwUTools is an application launcher made fully in C# that allows you to download and manage apps in one centralized location. It provides everything in a portable format, eliminating the need for administrative privileges.**
 
