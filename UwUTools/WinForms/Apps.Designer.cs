@@ -36,173 +36,174 @@ namespace UwUTools_Prototype
             this.GunaDragTextUwUTools = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.label3 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.welcomeSection = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.emulatorsSection = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.settingsSection = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.unknownSection = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.AppsSection = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.gamesSection = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.desktopButton = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.exerunButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ProgressBar1 = new Guna.UI2.WinForms.Guna2ProgressBar();
-            this.minimizeButton = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.closeButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2ShadowPanel25 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.ooregDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.label25 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel24 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.regscannerDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.label24 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel23 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.sysinfoDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.label23 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel22 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.powershellDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.label22 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel21 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.fdmDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.label21 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel20 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.discordDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.label20 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel9 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.parsecDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel17 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.sharexDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.label18 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel14 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.gimpDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.heroicDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel19 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.blenderDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.label19 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel18 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.furmarkDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel16 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.sublimeDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel15 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.vscodeDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel13 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.obsDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel12 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.NotepadPlusDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel11 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.notepadDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel10 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.anydeskDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel8 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.qbittorrentDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel7 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.firefoxDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel6 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.chromiumDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel5 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.sevenzipDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel4 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.phDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.Explorer = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.explorerDownload = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2DragControl4 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2DragControl5 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.explorercudaButton = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.desktopButton = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.exerunButton = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.minimizeButton = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.closeButton = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.welcomeSection = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.emulatorsSection = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.settingsSection = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.unknownSection = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.AppsSection = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.gamesSection = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ShadowPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.welcomeSection)).BeginInit();
             this.guna2ShadowPanel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.guna2ShadowPanel25.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             this.guna2ShadowPanel24.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             this.guna2ShadowPanel23.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             this.guna2ShadowPanel22.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             this.guna2ShadowPanel21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.guna2ShadowPanel20.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             this.guna2ShadowPanel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.guna2ShadowPanel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.guna2ShadowPanel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.guna2ShadowPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.guna2ShadowPanel19.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             this.guna2ShadowPanel18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.guna2ShadowPanel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.guna2ShadowPanel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.guna2ShadowPanel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.guna2ShadowPanel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.guna2ShadowPanel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.guna2ShadowPanel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.guna2ShadowPanel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.guna2ShadowPanel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.guna2ShadowPanel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.guna2ShadowPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.guna2ShadowPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.Explorer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.welcomeSection)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -253,100 +254,10 @@ namespace UwUTools_Prototype
             this.guna2ShadowPanel1.Size = new System.Drawing.Size(61, 667);
             this.guna2ShadowPanel1.TabIndex = 4;
             // 
-            // welcomeSection
-            // 
-            this.welcomeSection.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.welcomeSection.Image = global::UwUTools_Prototype.Properties.Resources.IMG_4833_cropped;
-            this.welcomeSection.ImageRotate = 0F;
-            this.welcomeSection.Location = new System.Drawing.Point(5, 6);
-            this.welcomeSection.Name = "welcomeSection";
-            this.welcomeSection.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.welcomeSection.Size = new System.Drawing.Size(51, 49);
-            this.welcomeSection.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.welcomeSection.TabIndex = 43;
-            this.welcomeSection.TabStop = false;
-            this.welcomeSection.Click += new System.EventHandler(this.welcomeSection_Click);
-            // 
-            // emulatorsSection
-            // 
-            this.emulatorsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.emulatorsSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.emulatorsSection.Image = ((System.Drawing.Image)(resources.GetObject("emulatorsSection.Image")));
-            this.emulatorsSection.ImageOffset = new System.Drawing.Point(0, 0);
-            this.emulatorsSection.ImageRotate = 0F;
-            this.emulatorsSection.ImageSize = new System.Drawing.Size(35, 35);
-            this.emulatorsSection.Location = new System.Drawing.Point(-1, 267);
-            this.emulatorsSection.Name = "emulatorsSection";
-            this.emulatorsSection.PressedState.ImageSize = new System.Drawing.Size(35, 35);
-            this.emulatorsSection.Size = new System.Drawing.Size(61, 55);
-            this.emulatorsSection.TabIndex = 24;
-            this.emulatorsSection.Click += new System.EventHandler(this.emulatorsSection_Click);
-            // 
-            // settingsSection
-            // 
-            this.settingsSection.BackColor = System.Drawing.Color.Transparent;
-            this.settingsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.settingsSection.HoverState.ImageSize = new System.Drawing.Size(30, 30);
-            this.settingsSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_setting_512__1_;
-            this.settingsSection.ImageOffset = new System.Drawing.Point(0, 0);
-            this.settingsSection.ImageRotate = 0F;
-            this.settingsSection.ImageSize = new System.Drawing.Size(30, 30);
-            this.settingsSection.Location = new System.Drawing.Point(1, 602);
-            this.settingsSection.Name = "settingsSection";
-            this.settingsSection.PressedState.ImageSize = new System.Drawing.Size(30, 30);
-            this.settingsSection.Size = new System.Drawing.Size(57, 51);
-            this.settingsSection.TabIndex = 23;
-            this.settingsSection.Click += new System.EventHandler(this.settingsSection_Click);
-            // 
-            // unknownSection
-            // 
-            this.unknownSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.unknownSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.unknownSection.Image = ((System.Drawing.Image)(resources.GetObject("unknownSection.Image")));
-            this.unknownSection.ImageOffset = new System.Drawing.Point(0, 0);
-            this.unknownSection.ImageRotate = 0F;
-            this.unknownSection.ImageSize = new System.Drawing.Size(35, 35);
-            this.unknownSection.Location = new System.Drawing.Point(0, 389);
-            this.unknownSection.Name = "unknownSection";
-            this.unknownSection.PressedState.ImageSize = new System.Drawing.Size(35, 35);
-            this.unknownSection.Size = new System.Drawing.Size(61, 55);
-            this.unknownSection.TabIndex = 10;
-            this.unknownSection.Click += new System.EventHandler(this.unknownSection_Click);
-            // 
-            // AppsSection
-            // 
-            this.AppsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.AppsSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.AppsSection.Image = ((System.Drawing.Image)(resources.GetObject("AppsSection.Image")));
-            this.AppsSection.ImageOffset = new System.Drawing.Point(0, 0);
-            this.AppsSection.ImageRotate = 0F;
-            this.AppsSection.ImageSize = new System.Drawing.Size(35, 35);
-            this.AppsSection.Location = new System.Drawing.Point(-1, 206);
-            this.AppsSection.Name = "AppsSection";
-            this.AppsSection.PressedState.ImageSize = new System.Drawing.Size(35, 35);
-            this.AppsSection.Size = new System.Drawing.Size(61, 55);
-            this.AppsSection.TabIndex = 8;
-            // 
-            // gamesSection
-            // 
-            this.gamesSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.gamesSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.gamesSection.Image = ((System.Drawing.Image)(resources.GetObject("gamesSection.Image")));
-            this.gamesSection.ImageOffset = new System.Drawing.Point(0, 0);
-            this.gamesSection.ImageRotate = 0F;
-            this.gamesSection.ImageSize = new System.Drawing.Size(35, 35);
-            this.gamesSection.Location = new System.Drawing.Point(0, 328);
-            this.gamesSection.Name = "gamesSection";
-            this.gamesSection.PressedState.ImageSize = new System.Drawing.Size(35, 35);
-            this.gamesSection.Size = new System.Drawing.Size(61, 55);
-            this.gamesSection.TabIndex = 9;
-            this.gamesSection.Click += new System.EventHandler(this.gamesSection_Click);
-            // 
             // guna2ShadowPanel2
             // 
             this.guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel2.Controls.Add(this.explorercudaButton);
             this.guna2ShadowPanel2.Controls.Add(this.desktopButton);
             this.guna2ShadowPanel2.Controls.Add(this.exerunButton);
             this.guna2ShadowPanel2.Controls.Add(this.guna2ProgressBar1);
@@ -363,36 +274,6 @@ namespace UwUTools_Prototype
             this.guna2ShadowPanel2.Size = new System.Drawing.Size(1225, 63);
             this.guna2ShadowPanel2.TabIndex = 5;
             // 
-            // desktopButton
-            // 
-            this.desktopButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.desktopButton.HoverState.ImageSize = new System.Drawing.Size(45, 45);
-            this.desktopButton.Image = global::UwUTools_Prototype.Properties.Resources.icons8_desktop_96;
-            this.desktopButton.ImageOffset = new System.Drawing.Point(0, 0);
-            this.desktopButton.ImageRotate = 0F;
-            this.desktopButton.ImageSize = new System.Drawing.Size(45, 45);
-            this.desktopButton.Location = new System.Drawing.Point(79, 2);
-            this.desktopButton.Name = "desktopButton";
-            this.desktopButton.PressedState.ImageSize = new System.Drawing.Size(45, 45);
-            this.desktopButton.Size = new System.Drawing.Size(60, 58);
-            this.desktopButton.TabIndex = 27;
-            this.desktopButton.Click += new System.EventHandler(this.desktopButton_Click);
-            // 
-            // exerunButton
-            // 
-            this.exerunButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.exerunButton.HoverState.ImageSize = new System.Drawing.Size(45, 45);
-            this.exerunButton.Image = global::UwUTools_Prototype.Properties.Resources.icons8_track_and_field_96__1_;
-            this.exerunButton.ImageOffset = new System.Drawing.Point(0, 0);
-            this.exerunButton.ImageRotate = 0F;
-            this.exerunButton.ImageSize = new System.Drawing.Size(45, 45);
-            this.exerunButton.Location = new System.Drawing.Point(13, 2);
-            this.exerunButton.Name = "exerunButton";
-            this.exerunButton.PressedState.ImageSize = new System.Drawing.Size(45, 45);
-            this.exerunButton.Size = new System.Drawing.Size(60, 58);
-            this.exerunButton.TabIndex = 26;
-            this.exerunButton.Click += new System.EventHandler(this.exerunButton_Click);
-            // 
             // guna2ProgressBar1
             // 
             this.guna2ProgressBar1.AutoRoundedCorners = true;
@@ -407,36 +288,6 @@ namespace UwUTools_Prototype
             this.guna2ProgressBar1.TabIndex = 20;
             this.guna2ProgressBar1.Text = "guna2ProgressBar1";
             this.guna2ProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            // 
-            // minimizeButton
-            // 
-            this.minimizeButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.minimizeButton.HoverState.ImageSize = new System.Drawing.Size(15, 15);
-            this.minimizeButton.Image = ((System.Drawing.Image)(resources.GetObject("minimizeButton.Image")));
-            this.minimizeButton.ImageOffset = new System.Drawing.Point(0, 0);
-            this.minimizeButton.ImageRotate = 0F;
-            this.minimizeButton.ImageSize = new System.Drawing.Size(15, 15);
-            this.minimizeButton.Location = new System.Drawing.Point(1129, 6);
-            this.minimizeButton.Name = "minimizeButton";
-            this.minimizeButton.PressedState.ImageSize = new System.Drawing.Size(15, 15);
-            this.minimizeButton.Size = new System.Drawing.Size(42, 46);
-            this.minimizeButton.TabIndex = 10;
-            this.minimizeButton.Click += new System.EventHandler(this.minimizeButton_Click);
-            // 
-            // closeButton
-            // 
-            this.closeButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.closeButton.HoverState.ImageSize = new System.Drawing.Size(15, 15);
-            this.closeButton.Image = ((System.Drawing.Image)(resources.GetObject("closeButton.Image")));
-            this.closeButton.ImageOffset = new System.Drawing.Point(0, 0);
-            this.closeButton.ImageRotate = 0F;
-            this.closeButton.ImageSize = new System.Drawing.Size(15, 15);
-            this.closeButton.Location = new System.Drawing.Point(1174, 6);
-            this.closeButton.Name = "closeButton";
-            this.closeButton.PressedState.ImageSize = new System.Drawing.Size(15, 15);
-            this.closeButton.Size = new System.Drawing.Size(42, 46);
-            this.closeButton.TabIndex = 10;
-            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // guna2DragControl1
             // 
@@ -526,16 +377,6 @@ namespace UwUTools_Prototype
             this.ooregDownload.Text = "Download";
             this.ooregDownload.Click += new System.EventHandler(this.ooregDownload_Click);
             // 
-            // pictureBox24
-            // 
-            this.pictureBox24.Image = global::UwUTools_Prototype.Properties.Resources.ico_oore;
-            this.pictureBox24.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox24.TabIndex = 12;
-            this.pictureBox24.TabStop = false;
-            // 
             // label25
             // 
             this.label25.AutoSize = true;
@@ -580,16 +421,6 @@ namespace UwUTools_Prototype
             this.regscannerDownload.TabIndex = 17;
             this.regscannerDownload.Text = "Download";
             this.regscannerDownload.Click += new System.EventHandler(this.regscannerDownload_Click);
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Image = global::UwUTools_Prototype.Properties.Resources.regscanner;
-            this.pictureBox23.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox23.TabIndex = 12;
-            this.pictureBox23.TabStop = false;
             // 
             // label24
             // 
@@ -636,16 +467,6 @@ namespace UwUTools_Prototype
             this.sysinfoDownload.Text = "Download";
             this.sysinfoDownload.Click += new System.EventHandler(this.sysinfoDownload_Click);
             // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Image = global::UwUTools_Prototype.Properties.Resources.systeminformer_ICON;
-            this.pictureBox22.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox22.TabIndex = 12;
-            this.pictureBox22.TabStop = false;
-            // 
             // label23
             // 
             this.label23.AutoSize = true;
@@ -690,16 +511,6 @@ namespace UwUTools_Prototype
             this.powershellDownload.TabIndex = 18;
             this.powershellDownload.Text = "Download";
             this.powershellDownload.Click += new System.EventHandler(this.powershellDownload_Click);
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Image = global::UwUTools_Prototype.Properties.Resources.PS;
-            this.pictureBox21.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox21.TabIndex = 12;
-            this.pictureBox21.TabStop = false;
             // 
             // label22
             // 
@@ -746,16 +557,6 @@ namespace UwUTools_Prototype
             this.fdmDownload.Text = "Download";
             this.fdmDownload.Click += new System.EventHandler(this.fdmDownload_Click);
             // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Image = global::UwUTools_Prototype.Properties.Resources.freedownloadmanagericon;
-            this.pictureBox20.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 12;
-            this.pictureBox20.TabStop = false;
-            // 
             // label21
             // 
             this.label21.AutoSize = true;
@@ -800,16 +601,6 @@ namespace UwUTools_Prototype
             this.discordDownload.TabIndex = 18;
             this.discordDownload.Text = "Download";
             this.discordDownload.Click += new System.EventHandler(this.discordDownload_Click);
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Image = global::UwUTools_Prototype.Properties.Resources.discord_aa;
-            this.pictureBox19.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 12;
-            this.pictureBox19.TabStop = false;
             // 
             // label20
             // 
@@ -856,16 +647,6 @@ namespace UwUTools_Prototype
             this.parsecDownload.Text = "Download";
             this.parsecDownload.Click += new System.EventHandler(this.Parsec_Click);
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::UwUTools_Prototype.Properties.Resources.download;
-            this.pictureBox7.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 12;
-            this.pictureBox7.TabStop = false;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -910,16 +691,6 @@ namespace UwUTools_Prototype
             this.sharexDownload.TabIndex = 18;
             this.sharexDownload.Text = "Download";
             this.sharexDownload.Click += new System.EventHandler(this.sharexDownload_Click);
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::UwUTools_Prototype.Properties.Resources.ShareX_Logo;
-            this.pictureBox17.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox17.TabIndex = 12;
-            this.pictureBox17.TabStop = false;
             // 
             // label18
             // 
@@ -966,16 +737,6 @@ namespace UwUTools_Prototype
             this.gimpDownload.Text = "Download";
             this.gimpDownload.Click += new System.EventHandler(this.gimpDownload_Click);
             // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = global::UwUTools_Prototype.Properties.Resources.The_GIMP_icon___gnome_svg;
-            this.pictureBox15.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 12;
-            this.pictureBox15.TabStop = false;
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -1020,16 +781,6 @@ namespace UwUTools_Prototype
             this.heroicDownload.TabIndex = 18;
             this.heroicDownload.Text = "Download";
             this.heroicDownload.Click += new System.EventHandler(this.heroicDownload_Click);
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 12;
-            this.pictureBox12.TabStop = false;
             // 
             // label13
             // 
@@ -1076,16 +827,6 @@ namespace UwUTools_Prototype
             this.blenderDownload.Text = "Download";
             this.blenderDownload.Click += new System.EventHandler(this.blenderDownload_Click);
             // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Image = global::UwUTools_Prototype.Properties.Resources.Blender_logo_no_text_svg;
-            this.pictureBox18.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox18.TabIndex = 12;
-            this.pictureBox18.TabStop = false;
-            // 
             // label19
             // 
             this.label19.AutoSize = true;
@@ -1130,16 +871,6 @@ namespace UwUTools_Prototype
             this.furmarkDownload.TabIndex = 17;
             this.furmarkDownload.Text = "Download";
             this.furmarkDownload.Click += new System.EventHandler(this.furmarkDownload_Click);
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = global::UwUTools_Prototype.Properties.Resources.pngaaa_com_4783857;
-            this.pictureBox16.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 12;
-            this.pictureBox16.TabStop = false;
             // 
             // label17
             // 
@@ -1186,16 +917,6 @@ namespace UwUTools_Prototype
             this.sublimeDownload.Text = "Download";
             this.sublimeDownload.Click += new System.EventHandler(this.sublimeDownload_Click);
             // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = global::UwUTools_Prototype.Properties.Resources.Sublime_Text_3_logo;
-            this.pictureBox14.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 12;
-            this.pictureBox14.TabStop = false;
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -1240,16 +961,6 @@ namespace UwUTools_Prototype
             this.vscodeDownload.TabIndex = 17;
             this.vscodeDownload.Text = "Download";
             this.vscodeDownload.Click += new System.EventHandler(this.vscodeDownload_Click);
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = global::UwUTools_Prototype.Properties.Resources.pngwing_com__1_;
-            this.pictureBox13.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 12;
-            this.pictureBox13.TabStop = false;
             // 
             // label14
             // 
@@ -1296,16 +1007,6 @@ namespace UwUTools_Prototype
             this.obsDownload.Text = "Download";
             this.obsDownload.Click += new System.EventHandler(this.obsDownload_Click);
             // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::UwUTools_Prototype.Properties.Resources._1200px_OBS_Studio_Logo_svg;
-            this.pictureBox11.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 12;
-            this.pictureBox11.TabStop = false;
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -1350,16 +1051,6 @@ namespace UwUTools_Prototype
             this.NotepadPlusDownload.TabIndex = 17;
             this.NotepadPlusDownload.Text = "Download";
             this.NotepadPlusDownload.Click += new System.EventHandler(this.NotepadPlusDownload_Click);
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::UwUTools_Prototype.Properties.Resources.Notepad___Logo_svg;
-            this.pictureBox10.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 12;
-            this.pictureBox10.TabStop = false;
             // 
             // label11
             // 
@@ -1406,16 +1097,6 @@ namespace UwUTools_Prototype
             this.notepadDownload.Text = "Download";
             this.notepadDownload.Click += new System.EventHandler(this.notepadDownload_Click);
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::UwUTools_Prototype.Properties.Resources.Notepad_Vista_10;
-            this.pictureBox9.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 12;
-            this.pictureBox9.TabStop = false;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -1460,16 +1141,6 @@ namespace UwUTools_Prototype
             this.anydeskDownload.TabIndex = 17;
             this.anydeskDownload.Text = "Download";
             this.anydeskDownload.Click += new System.EventHandler(this.anydeskDownload_Click);
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::UwUTools_Prototype.Properties.Resources.O082XLLI_400x400;
-            this.pictureBox8.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 12;
-            this.pictureBox8.TabStop = false;
             // 
             // label9
             // 
@@ -1516,16 +1187,6 @@ namespace UwUTools_Prototype
             this.qbittorrentDownload.Text = "Download";
             this.qbittorrentDownload.Click += new System.EventHandler(this.qbittorrentDownload_Click);
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::UwUTools_Prototype.Properties.Resources.New_qBittorrent_Logo;
-            this.pictureBox6.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 12;
-            this.pictureBox6.TabStop = false;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -1570,16 +1231,6 @@ namespace UwUTools_Prototype
             this.firefoxDownload.TabIndex = 17;
             this.firefoxDownload.Text = "Download";
             this.firefoxDownload.Click += new System.EventHandler(this.firefoxDownload_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::UwUTools_Prototype.Properties.Resources.Firefox_icon;
-            this.pictureBox5.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 12;
-            this.pictureBox5.TabStop = false;
             // 
             // label6
             // 
@@ -1626,16 +1277,6 @@ namespace UwUTools_Prototype
             this.chromiumDownload.Text = "Download";
             this.chromiumDownload.Click += new System.EventHandler(this.chromiumDownload_Click);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::UwUTools_Prototype.Properties.Resources.thorium;
-            this.pictureBox4.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 12;
-            this.pictureBox4.TabStop = false;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -1680,16 +1321,6 @@ namespace UwUTools_Prototype
             this.sevenzipDownload.TabIndex = 18;
             this.sevenzipDownload.Text = "Download";
             this.sevenzipDownload.Click += new System.EventHandler(this.sevenzipDownload_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::UwUTools_Prototype.Properties.Resources._7_zip_icon;
-            this.pictureBox3.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 12;
-            this.pictureBox3.TabStop = false;
             // 
             // label4
             // 
@@ -1736,16 +1367,6 @@ namespace UwUTools_Prototype
             this.phDownload.Text = "Download";
             this.phDownload.Click += new System.EventHandler(this.phDownload_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::UwUTools_Prototype.Properties.Resources.Process_Hacker;
-            this.pictureBox2.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -1791,16 +1412,6 @@ namespace UwUTools_Prototype
             this.explorerDownload.Text = "Download";
             this.explorerDownload.Click += new System.EventHandler(this.explorerDownload_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::UwUTools_Prototype.Properties.Resources.icons8_folder_240;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(143, 130);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -1831,6 +1442,412 @@ namespace UwUTools_Prototype
             this.guna2DragControl5.TargetControl = this.guna2ProgressBar1;
             this.guna2DragControl5.UseTransparentDrag = true;
             // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Image = global::UwUTools.Properties.Resources.ico_oore;
+            this.pictureBox24.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox24.TabIndex = 12;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Image = global::UwUTools.Properties.Resources.regscanner;
+            this.pictureBox23.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox23.TabIndex = 12;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Image = global::UwUTools.Properties.Resources.systeminformer_ICON;
+            this.pictureBox22.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox22.TabIndex = 12;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = global::UwUTools.Properties.Resources.PS;
+            this.pictureBox21.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox21.TabIndex = 12;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Image = global::UwUTools.Properties.Resources.freedownloadmanagericon;
+            this.pictureBox20.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox20.TabIndex = 12;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Image = global::UwUTools.Properties.Resources.discord_aa;
+            this.pictureBox19.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox19.TabIndex = 12;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::UwUTools.Properties.Resources.download;
+            this.pictureBox7.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 12;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = global::UwUTools.Properties.Resources.ShareX_Logo;
+            this.pictureBox17.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox17.TabIndex = 12;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Image = global::UwUTools.Properties.Resources.The_GIMP_icon___gnome_svg;
+            this.pictureBox15.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox15.TabIndex = 12;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 12;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Image = global::UwUTools.Properties.Resources.Blender_logo_no_text_svg;
+            this.pictureBox18.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox18.TabIndex = 12;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = global::UwUTools.Properties.Resources.pngaaa_com_4783857;
+            this.pictureBox16.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox16.TabIndex = 12;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = global::UwUTools.Properties.Resources.Sublime_Text_3_logo;
+            this.pictureBox14.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 12;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = global::UwUTools.Properties.Resources.pngwing_com__1_;
+            this.pictureBox13.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 12;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::UwUTools.Properties.Resources._1200px_OBS_Studio_Logo_svg;
+            this.pictureBox11.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 12;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::UwUTools.Properties.Resources.Notepad___Logo_svg;
+            this.pictureBox10.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 12;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::UwUTools.Properties.Resources.Notepad_Vista_10;
+            this.pictureBox9.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 12;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::UwUTools.Properties.Resources.O082XLLI_400x400;
+            this.pictureBox8.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 12;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::UwUTools.Properties.Resources.New_qBittorrent_Logo;
+            this.pictureBox6.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 12;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::UwUTools.Properties.Resources.Firefox_icon;
+            this.pictureBox5.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 12;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::UwUTools.Properties.Resources.thorium;
+            this.pictureBox4.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 12;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::UwUTools.Properties.Resources._7_zip_icon;
+            this.pictureBox3.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::UwUTools.Properties.Resources.Process_Hacker;
+            this.pictureBox2.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::UwUTools.Properties.Resources.icons8_folder_240;
+            this.pictureBox1.Location = new System.Drawing.Point(17, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(143, 130);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // explorercudaButton
+            // 
+            this.explorercudaButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.explorercudaButton.HoverState.ImageSize = new System.Drawing.Size(50, 50);
+            this.explorercudaButton.Image = global::UwUTools.Properties.Resources.explorerCUDA;
+            this.explorercudaButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.explorercudaButton.ImageRotate = 0F;
+            this.explorercudaButton.ImageSize = new System.Drawing.Size(50, 50);
+            this.explorercudaButton.Location = new System.Drawing.Point(145, 2);
+            this.explorercudaButton.Name = "explorercudaButton";
+            this.explorercudaButton.PressedState.ImageSize = new System.Drawing.Size(50, 50);
+            this.explorercudaButton.Size = new System.Drawing.Size(60, 58);
+            this.explorercudaButton.TabIndex = 28;
+            this.explorercudaButton.Click += new System.EventHandler(this.explorercudaButton_Click);
+            // 
+            // desktopButton
+            // 
+            this.desktopButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.desktopButton.HoverState.ImageSize = new System.Drawing.Size(45, 45);
+            this.desktopButton.Image = global::UwUTools.Properties.Resources.icons8_desktop_96;
+            this.desktopButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.desktopButton.ImageRotate = 0F;
+            this.desktopButton.ImageSize = new System.Drawing.Size(45, 45);
+            this.desktopButton.Location = new System.Drawing.Point(79, 2);
+            this.desktopButton.Name = "desktopButton";
+            this.desktopButton.PressedState.ImageSize = new System.Drawing.Size(45, 45);
+            this.desktopButton.Size = new System.Drawing.Size(60, 58);
+            this.desktopButton.TabIndex = 27;
+            this.desktopButton.Click += new System.EventHandler(this.desktopButton_Click);
+            // 
+            // exerunButton
+            // 
+            this.exerunButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.exerunButton.HoverState.ImageSize = new System.Drawing.Size(45, 45);
+            this.exerunButton.Image = global::UwUTools.Properties.Resources.icons8_track_and_field_96__1_;
+            this.exerunButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.exerunButton.ImageRotate = 0F;
+            this.exerunButton.ImageSize = new System.Drawing.Size(45, 45);
+            this.exerunButton.Location = new System.Drawing.Point(13, 2);
+            this.exerunButton.Name = "exerunButton";
+            this.exerunButton.PressedState.ImageSize = new System.Drawing.Size(45, 45);
+            this.exerunButton.Size = new System.Drawing.Size(60, 58);
+            this.exerunButton.TabIndex = 26;
+            this.exerunButton.Click += new System.EventHandler(this.exerunButton_Click);
+            // 
+            // minimizeButton
+            // 
+            this.minimizeButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.minimizeButton.HoverState.ImageSize = new System.Drawing.Size(15, 15);
+            this.minimizeButton.Image = ((System.Drawing.Image)(resources.GetObject("minimizeButton.Image")));
+            this.minimizeButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.minimizeButton.ImageRotate = 0F;
+            this.minimizeButton.ImageSize = new System.Drawing.Size(15, 15);
+            this.minimizeButton.Location = new System.Drawing.Point(1129, 6);
+            this.minimizeButton.Name = "minimizeButton";
+            this.minimizeButton.PressedState.ImageSize = new System.Drawing.Size(15, 15);
+            this.minimizeButton.Size = new System.Drawing.Size(42, 46);
+            this.minimizeButton.TabIndex = 10;
+            this.minimizeButton.Click += new System.EventHandler(this.minimizeButton_Click);
+            // 
+            // closeButton
+            // 
+            this.closeButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.closeButton.HoverState.ImageSize = new System.Drawing.Size(15, 15);
+            this.closeButton.Image = ((System.Drawing.Image)(resources.GetObject("closeButton.Image")));
+            this.closeButton.ImageOffset = new System.Drawing.Point(0, 0);
+            this.closeButton.ImageRotate = 0F;
+            this.closeButton.ImageSize = new System.Drawing.Size(15, 15);
+            this.closeButton.Location = new System.Drawing.Point(1174, 6);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.PressedState.ImageSize = new System.Drawing.Size(15, 15);
+            this.closeButton.Size = new System.Drawing.Size(42, 46);
+            this.closeButton.TabIndex = 10;
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
+            // 
+            // welcomeSection
+            // 
+            this.welcomeSection.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.welcomeSection.Image = global::UwUTools.Properties.Resources.IMG_4833_cropped;
+            this.welcomeSection.ImageRotate = 0F;
+            this.welcomeSection.Location = new System.Drawing.Point(5, 6);
+            this.welcomeSection.Name = "welcomeSection";
+            this.welcomeSection.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.welcomeSection.Size = new System.Drawing.Size(51, 49);
+            this.welcomeSection.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.welcomeSection.TabIndex = 43;
+            this.welcomeSection.TabStop = false;
+            this.welcomeSection.Click += new System.EventHandler(this.welcomeSection_Click);
+            // 
+            // emulatorsSection
+            // 
+            this.emulatorsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.emulatorsSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.emulatorsSection.Image = ((System.Drawing.Image)(resources.GetObject("emulatorsSection.Image")));
+            this.emulatorsSection.ImageOffset = new System.Drawing.Point(0, 0);
+            this.emulatorsSection.ImageRotate = 0F;
+            this.emulatorsSection.ImageSize = new System.Drawing.Size(35, 35);
+            this.emulatorsSection.Location = new System.Drawing.Point(-1, 267);
+            this.emulatorsSection.Name = "emulatorsSection";
+            this.emulatorsSection.PressedState.ImageSize = new System.Drawing.Size(35, 35);
+            this.emulatorsSection.Size = new System.Drawing.Size(61, 55);
+            this.emulatorsSection.TabIndex = 24;
+            this.emulatorsSection.Click += new System.EventHandler(this.emulatorsSection_Click);
+            // 
+            // settingsSection
+            // 
+            this.settingsSection.BackColor = System.Drawing.Color.Transparent;
+            this.settingsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.settingsSection.HoverState.ImageSize = new System.Drawing.Size(30, 30);
+            this.settingsSection.Image = global::UwUTools.Properties.Resources.icons8_setting_512__1_;
+            this.settingsSection.ImageOffset = new System.Drawing.Point(0, 0);
+            this.settingsSection.ImageRotate = 0F;
+            this.settingsSection.ImageSize = new System.Drawing.Size(30, 30);
+            this.settingsSection.Location = new System.Drawing.Point(1, 602);
+            this.settingsSection.Name = "settingsSection";
+            this.settingsSection.PressedState.ImageSize = new System.Drawing.Size(30, 30);
+            this.settingsSection.Size = new System.Drawing.Size(57, 51);
+            this.settingsSection.TabIndex = 23;
+            this.settingsSection.Click += new System.EventHandler(this.settingsSection_Click);
+            // 
+            // unknownSection
+            // 
+            this.unknownSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.unknownSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.unknownSection.Image = ((System.Drawing.Image)(resources.GetObject("unknownSection.Image")));
+            this.unknownSection.ImageOffset = new System.Drawing.Point(0, 0);
+            this.unknownSection.ImageRotate = 0F;
+            this.unknownSection.ImageSize = new System.Drawing.Size(35, 35);
+            this.unknownSection.Location = new System.Drawing.Point(0, 389);
+            this.unknownSection.Name = "unknownSection";
+            this.unknownSection.PressedState.ImageSize = new System.Drawing.Size(35, 35);
+            this.unknownSection.Size = new System.Drawing.Size(61, 55);
+            this.unknownSection.TabIndex = 10;
+            this.unknownSection.Click += new System.EventHandler(this.unknownSection_Click);
+            // 
+            // AppsSection
+            // 
+            this.AppsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.AppsSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.AppsSection.Image = ((System.Drawing.Image)(resources.GetObject("AppsSection.Image")));
+            this.AppsSection.ImageOffset = new System.Drawing.Point(0, 0);
+            this.AppsSection.ImageRotate = 0F;
+            this.AppsSection.ImageSize = new System.Drawing.Size(35, 35);
+            this.AppsSection.Location = new System.Drawing.Point(-1, 206);
+            this.AppsSection.Name = "AppsSection";
+            this.AppsSection.PressedState.ImageSize = new System.Drawing.Size(35, 35);
+            this.AppsSection.Size = new System.Drawing.Size(61, 55);
+            this.AppsSection.TabIndex = 8;
+            // 
+            // gamesSection
+            // 
+            this.gamesSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.gamesSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.gamesSection.Image = ((System.Drawing.Image)(resources.GetObject("gamesSection.Image")));
+            this.gamesSection.ImageOffset = new System.Drawing.Point(0, 0);
+            this.gamesSection.ImageRotate = 0F;
+            this.gamesSection.ImageSize = new System.Drawing.Size(35, 35);
+            this.gamesSection.Location = new System.Drawing.Point(0, 328);
+            this.gamesSection.Name = "gamesSection";
+            this.gamesSection.PressedState.ImageSize = new System.Drawing.Size(35, 35);
+            this.gamesSection.Size = new System.Drawing.Size(61, 55);
+            this.gamesSection.TabIndex = 9;
+            this.gamesSection.Click += new System.EventHandler(this.gamesSection_Click);
+            // 
             // Apps
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1847,82 +1864,82 @@ namespace UwUTools_Prototype
             this.Text = "UwUTools Apps";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.guna2ShadowPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.welcomeSection)).EndInit();
             this.guna2ShadowPanel2.ResumeLayout(false);
             this.guna2ShadowPanel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.guna2ShadowPanel25.ResumeLayout(false);
             this.guna2ShadowPanel25.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             this.guna2ShadowPanel24.ResumeLayout(false);
             this.guna2ShadowPanel24.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             this.guna2ShadowPanel23.ResumeLayout(false);
             this.guna2ShadowPanel23.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             this.guna2ShadowPanel22.ResumeLayout(false);
             this.guna2ShadowPanel22.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             this.guna2ShadowPanel21.ResumeLayout(false);
             this.guna2ShadowPanel21.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             this.guna2ShadowPanel20.ResumeLayout(false);
             this.guna2ShadowPanel20.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             this.guna2ShadowPanel9.ResumeLayout(false);
             this.guna2ShadowPanel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.guna2ShadowPanel17.ResumeLayout(false);
             this.guna2ShadowPanel17.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.guna2ShadowPanel14.ResumeLayout(false);
             this.guna2ShadowPanel14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.guna2ShadowPanel3.ResumeLayout(false);
             this.guna2ShadowPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.guna2ShadowPanel19.ResumeLayout(false);
             this.guna2ShadowPanel19.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             this.guna2ShadowPanel18.ResumeLayout(false);
             this.guna2ShadowPanel18.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.guna2ShadowPanel16.ResumeLayout(false);
             this.guna2ShadowPanel16.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.guna2ShadowPanel15.ResumeLayout(false);
             this.guna2ShadowPanel15.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.guna2ShadowPanel13.ResumeLayout(false);
             this.guna2ShadowPanel13.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.guna2ShadowPanel12.ResumeLayout(false);
             this.guna2ShadowPanel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.guna2ShadowPanel11.ResumeLayout(false);
             this.guna2ShadowPanel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.guna2ShadowPanel10.ResumeLayout(false);
             this.guna2ShadowPanel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.guna2ShadowPanel8.ResumeLayout(false);
             this.guna2ShadowPanel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.guna2ShadowPanel7.ResumeLayout(false);
             this.guna2ShadowPanel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.guna2ShadowPanel6.ResumeLayout(false);
             this.guna2ShadowPanel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.guna2ShadowPanel5.ResumeLayout(false);
             this.guna2ShadowPanel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.guna2ShadowPanel4.ResumeLayout(false);
             this.guna2ShadowPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.Explorer.ResumeLayout(false);
             this.Explorer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.welcomeSection)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2048,6 +2065,7 @@ namespace UwUTools_Prototype
         private Guna.UI2.WinForms.Guna2Button ooregDownload;
         private System.Windows.Forms.PictureBox pictureBox24;
         private System.Windows.Forms.Label label25;
+        private Guna.UI2.WinForms.Guna2ImageButton explorercudaButton;
     }
 }
 

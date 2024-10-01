@@ -20,54 +20,6 @@ namespace UwUTools_Prototype.WinForms
         {
             InitializeComponent();
         }
-        private void ZipDownloadProcess(string exePath, string link, string appZip, string appPath, string Choice, string UwUToolsPath)
-        {
-            string txtFile = @"C:\UwUTools\Config.txt";
-            string notificationOn = "Notifications=Yes";
-            string notificationOff = "Notifications=Off";
-            string fileContent = File.ReadAllText(txtFile);
-
-            if (File.Exists(exePath))
-            {
-                Process.Start(exePath);
-            }
-            else
-            {
-                Directory.CreateDirectory(Choice);
-                SuccessNotification notification = new SuccessNotification();
-
-                WebClient webClient = new WebClient();
-                webClient.DownloadProgressChanged += DownloadProgressChanged;
-                webClient.DownloadFileAsync(new Uri(link), appZip);
-                webClient.DownloadFileCompleted += (s, args) =>
-                {
-                    if (Directory.Exists(@"C:\UwUTools\Choices\No"))
-                    {
-                        Directory.Delete(@"C:\UwUTools\Choices\No");
-                        ZipFile.ExtractToDirectory(appZip, UwUToolsPath);
-                        File.Delete(appZip);
-                    }
-                    else if (Directory.Exists(@"C:\UwUTools\Choices\Yes"))
-                    {
-                        Directory.Delete(@"C:\UwUTools\Choices\Yes");
-                        Directory.CreateDirectory(appPath);
-                        ZipFile.ExtractToDirectory(appZip, appPath);
-                        File.Delete(appZip);
-                    }
-
-                    if (fileContent.Contains(notificationOn))
-                    {
-                        notification.showAlert("Success message", SuccessNotification.enmType.Success);
-                    }
-                    else if (fileContent.Contains(notificationOff))
-                    {
-
-                    }
-
-                    Process.Start(exePath);
-                };
-            }
-        }
         private void exeDownloadProcess(string exePath, string link, string appPath)
         {
             string txtFile = @"C:\UwUTools\Config.txt";

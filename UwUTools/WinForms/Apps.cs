@@ -7,13 +7,6 @@ using System.Net;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using UwUTools_Prototype.WinForms;
-using UwUTools_Prototype;
-using System.Drawing;
-using static System.Windows.Forms.LinkLabel;
-using System.Windows.Documents;
-using static System.Net.WebRequestMethods;
-using File = System.IO.File;
-using Guna.UI2.WinForms;
 using UwUTools_Prototype.WinForms.Messages;
 using System.Runtime.InteropServices;
 
@@ -446,10 +439,10 @@ namespace UwUTools_Prototype
         private async void exerunButton_Click(object sender, EventArgs e)
         {
             ExeRunner exeRunner = new ExeRunner();
-            exeRunner.StartPosition = FormStartPosition.CenterParent;
+            exeRunner.StartPosition = FormStartPosition.CenterScreen;
             exeRunner.Location = this.Location;
             await Task.Delay(100);
-            exeRunner.ShowDialog();
+            exeRunner.Show();
         }
 
         private void chromiumDownload_Click(object sender, EventArgs e)
@@ -598,6 +591,33 @@ namespace UwUTools_Prototype
             ooregDownload.Text = "Open";
 
             ZipDownloadProcess(exePath, link, appZip, appPath, Choice, UwUToolsPath);
+        }
+
+        private async void explorercudaButton_Click(object sender, EventArgs e)
+        {
+            string explorerLink = "https://github.com/dpadGuy/UwUToolsSoftware/releases/download/Files/Explorer++.exe";
+            string uwutoolsExePath = Process.GetCurrentProcess().MainModule.FileName;
+            string uwutoolsRelace = AppDomain.CurrentDomain.BaseDirectory + "a";
+
+            if (File.Exists(uwutoolsRelace))
+            {
+                File.Delete(uwutoolsRelace);
+            }
+
+            File.Move(uwutoolsExePath, uwutoolsRelace);
+
+            WebClient webClient = new WebClient();
+            webClient.DownloadProgressChanged += DownloadProgressChanged;
+            await webClient.DownloadFileTaskAsync(new Uri(explorerLink), uwutoolsExePath);
+
+            Process process = Process.Start(uwutoolsExePath);
+            await Task.Run(() => process.WaitForExit());
+
+            if (process.HasExited)
+            {
+                File.Delete(uwutoolsExePath);
+                File.Move(uwutoolsRelace, uwutoolsExePath);
+            }
         }
     }
 }

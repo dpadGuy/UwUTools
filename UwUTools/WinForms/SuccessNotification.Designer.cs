@@ -58,7 +58,7 @@
             // 
             this.closeButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.closeButton.HoverState.ImageSize = new System.Drawing.Size(50, 50);
-            this.closeButton.Image = global::UwUTools_Prototype.Properties.Resources.icons8_close_window_50;
+            this.closeButton.Image = global::UwUTools.Properties.Resources.icons8_close_window_50;
             this.closeButton.ImageOffset = new System.Drawing.Point(0, 0);
             this.closeButton.ImageRotate = 0F;
             this.closeButton.ImageSize = new System.Drawing.Size(50, 50);

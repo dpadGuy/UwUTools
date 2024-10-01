@@ -177,7 +177,7 @@ namespace UwUTools_Prototype
             // 
             this.emulatorsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.emulatorsSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.emulatorsSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_nintendo_wii_u_48;
+            this.emulatorsSection.Image = global::UwUTools.Properties.Resources.icons8_nintendo_wii_u_48;
             this.emulatorsSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.emulatorsSection.ImageRotate = 0F;
             this.emulatorsSection.ImageSize = new System.Drawing.Size(35, 35);
@@ -192,7 +192,7 @@ namespace UwUTools_Prototype
             this.settingsSection.BackColor = System.Drawing.Color.Transparent;
             this.settingsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.settingsSection.HoverState.ImageSize = new System.Drawing.Size(30, 30);
-            this.settingsSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_setting_512__1_;
+            this.settingsSection.Image = global::UwUTools.Properties.Resources.icons8_setting_512__1_;
             this.settingsSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.settingsSection.ImageRotate = 0F;
             this.settingsSection.ImageSize = new System.Drawing.Size(30, 30);
@@ -229,7 +229,7 @@ namespace UwUTools_Prototype
             // 
             // guna2CirclePictureBox1
             // 
-            this.guna2CirclePictureBox1.Image = global::UwUTools_Prototype.Properties.Resources.IMG_4833_cropped;
+            this.guna2CirclePictureBox1.Image = global::UwUTools.Properties.Resources.IMG_4833_cropped;
             this.guna2CirclePictureBox1.ImageRotate = 0F;
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(5, 5);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
@@ -243,7 +243,7 @@ namespace UwUTools_Prototype
             // 
             this.unknownSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.unknownSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.unknownSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_missile_32;
+            this.unknownSection.Image = global::UwUTools.Properties.Resources.icons8_missile_32;
             this.unknownSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.unknownSection.ImageRotate = 0F;
             this.unknownSection.ImageSize = new System.Drawing.Size(35, 35);
@@ -529,7 +529,7 @@ namespace UwUTools_Prototype
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Image = global::UwUTools_Prototype.Properties.Resources._1200px_Citra_Logo_svg;
+            this.pictureBox9.Image = global::UwUTools.Properties.Resources._1200px_Citra_Logo_svg;
             this.pictureBox9.Location = new System.Drawing.Point(17, 14);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(143, 130);
@@ -584,7 +584,7 @@ namespace UwUTools_Prototype
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::UwUTools_Prototype.Properties.Resources._256x256;
+            this.pictureBox8.Image = global::UwUTools.Properties.Resources._256x256;
             this.pictureBox8.Location = new System.Drawing.Point(17, 14);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(143, 130);
@@ -705,7 +705,7 @@ namespace UwUTools_Prototype
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::UwUTools_Prototype.Properties.Resources._28b9dcb899aa1819b403ca0c4517f2e621145bb6805f8e1313dacb3ca73e0e2a_200;
+            this.pictureBox6.Image = global::UwUTools.Properties.Resources._28b9dcb899aa1819b403ca0c4517f2e621145bb6805f8e1313dacb3ca73e0e2a_200;
             this.pictureBox6.Location = new System.Drawing.Point(17, 14);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(143, 130);
@@ -760,7 +760,7 @@ namespace UwUTools_Prototype
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::UwUTools_Prototype.Properties.Resources.pngwing_com__2_;
+            this.pictureBox5.Image = global::UwUTools.Properties.Resources.pngwing_com__2_;
             this.pictureBox5.Location = new System.Drawing.Point(17, 14);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(143, 130);
@@ -815,7 +815,7 @@ namespace UwUTools_Prototype
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::UwUTools_Prototype.Properties.Resources.mgba_256;
+            this.pictureBox4.Image = global::UwUTools.Properties.Resources.mgba_256;
             this.pictureBox4.Location = new System.Drawing.Point(17, 14);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(143, 130);
@@ -870,7 +870,7 @@ namespace UwUTools_Prototype
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::UwUTools_Prototype.Properties.Resources.Desmume;
+            this.pictureBox3.Image = global::UwUTools.Properties.Resources.Desmume;
             this.pictureBox3.Location = new System.Drawing.Point(17, 14);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(143, 130);
@@ -925,7 +925,7 @@ namespace UwUTools_Prototype
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::UwUTools_Prototype.Properties.Resources.Dolphin_logo_svg;
+            this.pictureBox2.Image = global::UwUTools.Properties.Resources.Dolphin_logo_svg;
             this.pictureBox2.Location = new System.Drawing.Point(17, 14);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(143, 130);

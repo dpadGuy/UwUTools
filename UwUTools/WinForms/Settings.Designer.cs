@@ -50,10 +50,17 @@
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.updateButton = new Guna.UI2.WinForms.Guna2Button();
+            this.windarkmodeSwitch = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.specscopyButton = new Guna.UI2.WinForms.Guna2Button();
+            this.dxdiagButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ShadowPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.welcomeSection)).BeginInit();
             this.guna2ShadowPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2ShadowPanel1
@@ -80,7 +87,7 @@
             this.welcomeSection.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.welcomeSection.Image = global::UwUTools_Prototype.Properties.Resources.IMG_4833_cropped;
+            this.welcomeSection.Image = global::UwUTools.Properties.Resources.IMG_4833_cropped;
             this.welcomeSection.ImageRotate = 0F;
             this.welcomeSection.Location = new System.Drawing.Point(5, 6);
             this.welcomeSection.Name = "welcomeSection";
@@ -95,7 +102,7 @@
             // 
             this.emulartorsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.emulartorsSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.emulartorsSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_nintendo_wii_u_48;
+            this.emulartorsSection.Image = global::UwUTools.Properties.Resources.icons8_nintendo_wii_u_48;
             this.emulartorsSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.emulartorsSection.ImageRotate = 0F;
             this.emulartorsSection.ImageSize = new System.Drawing.Size(35, 35);
@@ -111,7 +118,7 @@
             this.settingsSection.BackColor = System.Drawing.Color.Transparent;
             this.settingsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.settingsSection.HoverState.ImageSize = new System.Drawing.Size(30, 30);
-            this.settingsSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_setting_512__1_;
+            this.settingsSection.Image = global::UwUTools.Properties.Resources.icons8_setting_512__1_;
             this.settingsSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.settingsSection.ImageRotate = 0F;
             this.settingsSection.ImageSize = new System.Drawing.Size(30, 30);
@@ -125,7 +132,7 @@
             // 
             this.unknownSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.unknownSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.unknownSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_missile_32;
+            this.unknownSection.Image = global::UwUTools.Properties.Resources.icons8_missile_32;
             this.unknownSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.unknownSection.ImageRotate = 0F;
             this.unknownSection.ImageSize = new System.Drawing.Size(35, 35);
@@ -257,10 +264,10 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Location = new System.Drawing.Point(78, 113);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(596, 60);
+            this.label2.Size = new System.Drawing.Size(557, 60);
             this.label2.TabIndex = 22;
-            this.label2.Text = "Notifications can appear when you successfully installed some \r\nsoftware, you can" +
-    " either enable or disable it.";
+            this.label2.Text = "Notifications can appear when you successfully \r\ninstalled an application, you ca" +
+    "n either enable or disable it.";
             // 
             // guna2Elipse1
             // 
@@ -310,24 +317,106 @@
             this.guna2DragControl3.TargetControl = this.label3;
             this.guna2DragControl3.UseTransparentDrag = true;
             // 
-            // updateButton
+            // windarkmodeSwitch
             // 
-            this.updateButton.Animated = true;
-            this.updateButton.AutoRoundedCorners = true;
-            this.updateButton.BorderRadius = 17;
-            this.updateButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.updateButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.updateButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.updateButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.updateButton.FillColor = System.Drawing.Color.Black;
-            this.updateButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.updateButton.ForeColor = System.Drawing.Color.White;
-            this.updateButton.Location = new System.Drawing.Point(1131, 618);
-            this.updateButton.Name = "updateButton";
-            this.updateButton.Size = new System.Drawing.Size(143, 37);
-            this.updateButton.TabIndex = 24;
-            this.updateButton.Text = "Check for updates";
-            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
+            this.windarkmodeSwitch.Animated = true;
+            this.windarkmodeSwitch.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.windarkmodeSwitch.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.windarkmodeSwitch.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.windarkmodeSwitch.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.windarkmodeSwitch.Location = new System.Drawing.Point(286, 200);
+            this.windarkmodeSwitch.Name = "windarkmodeSwitch";
+            this.windarkmodeSwitch.Size = new System.Drawing.Size(40, 20);
+            this.windarkmodeSwitch.TabIndex = 27;
+            this.windarkmodeSwitch.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.windarkmodeSwitch.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.windarkmodeSwitch.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.windarkmodeSwitch.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.windarkmodeSwitch.CheckedChanged += new System.EventHandler(this.windarkmodeSwitch_CheckedChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Symbol", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.Location = new System.Drawing.Point(78, 224);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(615, 60);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "This option will give you the ability of having dark mode \r\non Windows 10 and upw" +
+    "ards, disable it to go back to light mode.";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Symbol", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label5.Location = new System.Drawing.Point(78, 193);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(207, 30);
+            this.label5.TabIndex = 25;
+            this.label5.Text = "Windows Dark Mode";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label6.Location = new System.Drawing.Point(79, 309);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(139, 21);
+            this.label6.TabIndex = 28;
+            this.label6.Text = "Waiting for specs...";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.Location = new System.Drawing.Point(83, 297);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(640, 1);
+            this.pictureBox1.TabIndex = 33;
+            this.pictureBox1.TabStop = false;
+            // 
+            // specscopyButton
+            // 
+            this.specscopyButton.Animated = true;
+            this.specscopyButton.AutoRoundedCorners = true;
+            this.specscopyButton.BorderRadius = 15;
+            this.specscopyButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.specscopyButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.specscopyButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.specscopyButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.specscopyButton.FillColor = System.Drawing.Color.Black;
+            this.specscopyButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.specscopyButton.ForeColor = System.Drawing.Color.White;
+            this.specscopyButton.Location = new System.Drawing.Point(628, 309);
+            this.specscopyButton.Name = "specscopyButton";
+            this.specscopyButton.Size = new System.Drawing.Size(95, 32);
+            this.specscopyButton.TabIndex = 34;
+            this.specscopyButton.Text = "Copy specs";
+            this.specscopyButton.Click += new System.EventHandler(this.specscopyButton_Click);
+            // 
+            // dxdiagButton
+            // 
+            this.dxdiagButton.Animated = true;
+            this.dxdiagButton.AutoRoundedCorners = true;
+            this.dxdiagButton.BorderRadius = 15;
+            this.dxdiagButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.dxdiagButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.dxdiagButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.dxdiagButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.dxdiagButton.FillColor = System.Drawing.Color.Black;
+            this.dxdiagButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dxdiagButton.ForeColor = System.Drawing.Color.White;
+            this.dxdiagButton.Location = new System.Drawing.Point(628, 351);
+            this.dxdiagButton.Name = "dxdiagButton";
+            this.dxdiagButton.Size = new System.Drawing.Size(95, 32);
+            this.dxdiagButton.TabIndex = 35;
+            this.dxdiagButton.Text = "Dxdiag";
+            this.dxdiagButton.Click += new System.EventHandler(this.dxdiagButton_Click);
             // 
             // Settings
             // 
@@ -335,7 +424,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.ClientSize = new System.Drawing.Size(1286, 667);
-            this.Controls.Add(this.updateButton);
+            this.Controls.Add(this.dxdiagButton);
+            this.Controls.Add(this.specscopyButton);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.windarkmodeSwitch);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.notificationSwitch);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -350,6 +445,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.welcomeSection)).EndInit();
             this.guna2ShadowPanel2.ResumeLayout(false);
             this.guna2ShadowPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -375,8 +471,14 @@
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl2;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl3;
-        private Guna.UI2.WinForms.Guna2Button updateButton;
         private Guna.UI2.WinForms.Guna2ProgressBar guna2ProgressBar1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox welcomeSection;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch windarkmodeSwitch;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2Button specscopyButton;
+        private Guna.UI2.WinForms.Guna2Button dxdiagButton;
     }
 }

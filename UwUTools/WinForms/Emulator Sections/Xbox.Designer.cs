@@ -100,7 +100,7 @@ namespace UwUTools_Prototype.WinForms.Emulator_Sections
             // 
             this.emulatorsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.emulatorsSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.emulatorsSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_nintendo_wii_u_48;
+            this.emulatorsSection.Image = global::UwUTools.Properties.Resources.icons8_nintendo_wii_u_48;
             this.emulatorsSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.emulatorsSection.ImageRotate = 0F;
             this.emulatorsSection.ImageSize = new System.Drawing.Size(35, 35);
@@ -116,7 +116,7 @@ namespace UwUTools_Prototype.WinForms.Emulator_Sections
             this.settingsSection.BackColor = System.Drawing.Color.Transparent;
             this.settingsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.settingsSection.HoverState.ImageSize = new System.Drawing.Size(30, 30);
-            this.settingsSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_setting_512__1_;
+            this.settingsSection.Image = global::UwUTools.Properties.Resources.icons8_setting_512__1_;
             this.settingsSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.settingsSection.ImageRotate = 0F;
             this.settingsSection.ImageSize = new System.Drawing.Size(30, 30);
@@ -153,7 +153,7 @@ namespace UwUTools_Prototype.WinForms.Emulator_Sections
             // 
             // guna2CirclePictureBox1
             // 
-            this.guna2CirclePictureBox1.Image = global::UwUTools_Prototype.Properties.Resources.IMG_4833_cropped;
+            this.guna2CirclePictureBox1.Image = global::UwUTools.Properties.Resources.IMG_4833_cropped;
             this.guna2CirclePictureBox1.ImageRotate = 0F;
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(5, 5);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
@@ -167,7 +167,7 @@ namespace UwUTools_Prototype.WinForms.Emulator_Sections
             // 
             this.unknownSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.unknownSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.unknownSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_missile_32;
+            this.unknownSection.Image = global::UwUTools.Properties.Resources.icons8_missile_32;
             this.unknownSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.unknownSection.ImageRotate = 0F;
             this.unknownSection.ImageSize = new System.Drawing.Size(35, 35);
@@ -379,7 +379,7 @@ namespace UwUTools_Prototype.WinForms.Emulator_Sections
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::UwUTools_Prototype.Properties.Resources.Xenia_Emulator_Updated_Logo;
+            this.pictureBox2.Image = global::UwUTools.Properties.Resources.Xenia_Emulator_Updated_Logo;
             this.pictureBox2.Location = new System.Drawing.Point(17, 14);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(143, 130);
@@ -434,7 +434,7 @@ namespace UwUTools_Prototype.WinForms.Emulator_Sections
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::UwUTools_Prototype.Properties.Resources._5b8c44bb082fc05dac0c3cdf6006dd5e;
+            this.pictureBox1.Image = global::UwUTools.Properties.Resources._5b8c44bb082fc05dac0c3cdf6006dd5e;
             this.pictureBox1.Location = new System.Drawing.Point(17, 14);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(143, 130);

@@ -218,7 +218,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::UwUTools_Prototype.Properties.Resources.unnamed__1_;
+            this.pictureBox2.Image = global::UwUTools.Properties.Resources.unnamed__1_;
             this.pictureBox2.Location = new System.Drawing.Point(12, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(216, 156);
@@ -228,7 +228,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::UwUTools_Prototype.Properties.Resources.minecraft_icon;
+            this.pictureBox1.Image = global::UwUTools.Properties.Resources.minecraft_icon;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(216, 156);
@@ -269,7 +269,7 @@
             this.welcomeSection.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.welcomeSection.Image = global::UwUTools_Prototype.Properties.Resources.IMG_4833_cropped;
+            this.welcomeSection.Image = global::UwUTools.Properties.Resources.IMG_4833_cropped;
             this.welcomeSection.ImageRotate = 0F;
             this.welcomeSection.Location = new System.Drawing.Point(5, 6);
             this.welcomeSection.Name = "welcomeSection";
@@ -298,7 +298,7 @@
             this.settingsSection.BackColor = System.Drawing.Color.Transparent;
             this.settingsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.settingsSection.HoverState.ImageSize = new System.Drawing.Size(30, 30);
-            this.settingsSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_setting_512__1_;
+            this.settingsSection.Image = global::UwUTools.Properties.Resources.icons8_setting_512__1_;
             this.settingsSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.settingsSection.ImageRotate = 0F;
             this.settingsSection.ImageSize = new System.Drawing.Size(30, 30);
@@ -312,7 +312,7 @@
             // 
             this.unknownSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.unknownSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.unknownSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_missile_32;
+            this.unknownSection.Image = global::UwUTools.Properties.Resources.icons8_missile_32;
             this.unknownSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.unknownSection.ImageRotate = 0F;
             this.unknownSection.ImageSize = new System.Drawing.Size(35, 35);

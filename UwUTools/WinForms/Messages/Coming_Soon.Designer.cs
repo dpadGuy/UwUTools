@@ -109,7 +109,7 @@ namespace UwUTools_Prototype.WinForms
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::UwUTools_Prototype.Properties.Resources.icons8_exclamation_mark_96;
+            this.pictureBox1.Image = global::UwUTools.Properties.Resources.icons8_exclamation_mark_96;
             this.pictureBox1.Location = new System.Drawing.Point(33, 74);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(52, 50);

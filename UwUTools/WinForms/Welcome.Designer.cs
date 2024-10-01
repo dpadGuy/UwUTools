@@ -39,6 +39,7 @@ namespace UwUTools_Prototype
             this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.githubButton = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -74,6 +75,7 @@ namespace UwUTools_Prototype
             this.guna2DragControl7 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.githubButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.youtubeButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
@@ -136,6 +138,7 @@ namespace UwUTools_Prototype
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.guna2PictureBox1);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.githubButton);
             this.panel1.Controls.Add(this.label9);
@@ -162,6 +165,18 @@ namespace UwUTools_Prototype
             this.panel1.TabIndex = 6;
             this.panel1.TabStop = true;
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BorderRadius = 40;
+            this.guna2PictureBox1.Image = global::UwUTools.Properties.Resources.cutie;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(540, 153);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(647, 258);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 69;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -171,14 +186,14 @@ namespace UwUTools_Prototype
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(22, 13);
             this.label10.TabIndex = 12;
-            this.label10.Text = "1.3";
+            this.label10.Text = "1.4";
             // 
             // githubButton
             // 
             this.githubButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.githubButton.Image = global::UwUTools_Prototype.Properties.Resources.github_6980894_1280;
+            this.githubButton.Image = global::UwUTools.Properties.Resources.github_6980894_1280;
             this.githubButton.ImageRotate = 0F;
             this.githubButton.Location = new System.Drawing.Point(339, 165);
             this.githubButton.Name = "githubButton";
@@ -249,7 +264,7 @@ namespace UwUTools_Prototype
             this.youtubeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.youtubeButton.Image = global::UwUTools_Prototype.Properties.Resources.youtube_icon_2048x2048_wiwalbpx1;
+            this.youtubeButton.Image = global::UwUTools.Properties.Resources.youtube_icon_2048x2048_wiwalbpx1;
             this.youtubeButton.ImageRotate = 0F;
             this.youtubeButton.Location = new System.Drawing.Point(339, 455);
             this.youtubeButton.Name = "youtubeButton";
@@ -265,7 +280,7 @@ namespace UwUTools_Prototype
             this.guna2CirclePictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2CirclePictureBox2.Image = global::UwUTools_Prototype.Properties.Resources.miku_or_black_rock_shooter_by_heartbucking_d4e6cth_cropped;
+            this.guna2CirclePictureBox2.Image = global::UwUTools.Properties.Resources.miku_or_black_rock_shooter_by_heartbucking_d4e6cth_cropped;
             this.guna2CirclePictureBox2.ImageRotate = 0F;
             this.guna2CirclePictureBox2.Location = new System.Drawing.Point(136, 103);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
@@ -389,7 +404,7 @@ namespace UwUTools_Prototype
             this.welcomeSection.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.welcomeSection.Image = global::UwUTools_Prototype.Properties.Resources.IMG_4833_cropped;
+            this.welcomeSection.Image = global::UwUTools.Properties.Resources.IMG_4833_cropped;
             this.welcomeSection.ImageRotate = 0F;
             this.welcomeSection.Location = new System.Drawing.Point(5, 6);
             this.welcomeSection.Name = "welcomeSection";
@@ -419,7 +434,7 @@ namespace UwUTools_Prototype
             this.settingsSection.BackColor = System.Drawing.Color.Transparent;
             this.settingsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.settingsSection.HoverState.ImageSize = new System.Drawing.Size(30, 30);
-            this.settingsSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_setting_512__1_;
+            this.settingsSection.Image = global::UwUTools.Properties.Resources.icons8_setting_512__1_;
             this.settingsSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.settingsSection.ImageRotate = 0F;
             this.settingsSection.ImageSize = new System.Drawing.Size(30, 30);
@@ -434,7 +449,7 @@ namespace UwUTools_Prototype
             // 
             this.unknownSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.unknownSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.unknownSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_missile_32;
+            this.unknownSection.Image = global::UwUTools.Properties.Resources.icons8_missile_32;
             this.unknownSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.unknownSection.ImageRotate = 0F;
             this.unknownSection.ImageSize = new System.Drawing.Size(35, 35);
@@ -506,7 +521,7 @@ namespace UwUTools_Prototype
             this.guna2CirclePictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2CirclePictureBox3.Image = global::UwUTools_Prototype.Properties.Resources.IMG_4785__1_;
+            this.guna2CirclePictureBox3.Image = global::UwUTools.Properties.Resources.IMG_4785__1_;
             this.guna2CirclePictureBox3.ImageRotate = 0F;
             this.guna2CirclePictureBox3.Location = new System.Drawing.Point(136, 384);
             this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
@@ -606,6 +621,7 @@ namespace UwUTools_Prototype
             this.Load += new System.EventHandler(this.WelcomePage_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.githubButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.youtubeButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
@@ -664,6 +680,7 @@ namespace UwUTools_Prototype
         private Guna.UI2.WinForms.Guna2CirclePictureBox githubButton;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label3;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }
 

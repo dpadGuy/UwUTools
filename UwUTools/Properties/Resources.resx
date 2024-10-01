@@ -181,9 +181,6 @@
   <data name="pngwing.com (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resouces 2\Resources\pngwing.com (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="regscanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\regscanner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="github-6980894_1280" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resouces 2\Resources\github-6980894_1280.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -211,8 +208,8 @@
   <data name="1200px-OBS_Studio_Logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resouces 2\Resources\1200px-OBS_Studio_Logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="unnamed (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\unnamed (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="regscanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\regscanner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,17 +217,26 @@
   <data name="Firefox icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resouces 2\Resources\Firefox icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="unnamed (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unnamed (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="core-color-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resouces 2\Resources\core-color-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-folder-240" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resouces 2\Resources\icons8-folder-240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-zip-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-zip-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="IMG_4785 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resouces 2\Resources\IMG_4785 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="youtube-icon-2048x2048-wiwalbpx1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resouces 2\Resources\youtube-icon-2048x2048-wiwalbpx1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explorerCUDA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\explorerCUDA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="The_GIMP_icon_-_gnome.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resouces 2\Resources\The_GIMP_icon_-_gnome.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -271,6 +277,12 @@
   <data name="icons8-nintendo-wii-u-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resouces 2\Resources\icons8-nintendo-wii-u-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ico_oore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_oore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-download-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-download-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="discord1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\discord1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -283,7 +295,7 @@
   <data name="icons8-exclamation-mark-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resouces 2\Resources\icons8-exclamation-mark-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ico_oore" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ico_oore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cutie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cutie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

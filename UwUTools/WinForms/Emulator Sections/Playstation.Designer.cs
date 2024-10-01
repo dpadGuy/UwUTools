@@ -111,7 +111,7 @@ namespace UwUTools_Prototype.WinForms
             this.welcomeSection.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.welcomeSection.Image = global::UwUTools_Prototype.Properties.Resources.IMG_4833_cropped;
+            this.welcomeSection.Image = global::UwUTools.Properties.Resources.IMG_4833_cropped;
             this.welcomeSection.ImageRotate = 0F;
             this.welcomeSection.Location = new System.Drawing.Point(5, 6);
             this.welcomeSection.Name = "welcomeSection";
@@ -126,7 +126,7 @@ namespace UwUTools_Prototype.WinForms
             // 
             this.emulatorsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.emulatorsSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.emulatorsSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_nintendo_wii_u_48;
+            this.emulatorsSection.Image = global::UwUTools.Properties.Resources.icons8_nintendo_wii_u_48;
             this.emulatorsSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.emulatorsSection.ImageRotate = 0F;
             this.emulatorsSection.ImageSize = new System.Drawing.Size(35, 35);
@@ -142,7 +142,7 @@ namespace UwUTools_Prototype.WinForms
             this.settingsSection.BackColor = System.Drawing.Color.Transparent;
             this.settingsSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.settingsSection.HoverState.ImageSize = new System.Drawing.Size(30, 30);
-            this.settingsSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_setting_512__1_;
+            this.settingsSection.Image = global::UwUTools.Properties.Resources.icons8_setting_512__1_;
             this.settingsSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.settingsSection.ImageRotate = 0F;
             this.settingsSection.ImageSize = new System.Drawing.Size(30, 30);
@@ -157,7 +157,7 @@ namespace UwUTools_Prototype.WinForms
             // 
             this.unknownSection.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.unknownSection.HoverState.ImageSize = new System.Drawing.Size(35, 35);
-            this.unknownSection.Image = global::UwUTools_Prototype.Properties.Resources.icons8_missile_32;
+            this.unknownSection.Image = global::UwUTools.Properties.Resources.icons8_missile_32;
             this.unknownSection.ImageOffset = new System.Drawing.Point(0, 0);
             this.unknownSection.ImageRotate = 0F;
             this.unknownSection.ImageSize = new System.Drawing.Size(35, 35);
@@ -360,7 +360,7 @@ namespace UwUTools_Prototype.WinForms
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::UwUTools_Prototype.Properties.Resources.unnamed;
+            this.pictureBox4.Image = global::UwUTools.Properties.Resources.unnamed;
             this.pictureBox4.Location = new System.Drawing.Point(17, 14);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(143, 130);
@@ -426,7 +426,7 @@ namespace UwUTools_Prototype.WinForms
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::UwUTools_Prototype.Properties.Resources.core_color_png;
+            this.pictureBox3.Image = global::UwUTools.Properties.Resources.core_color_png;
             this.pictureBox3.Location = new System.Drawing.Point(17, 14);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(143, 130);
@@ -481,7 +481,7 @@ namespace UwUTools_Prototype.WinForms
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::UwUTools_Prototype.Properties.Resources.PPSSPP_logo_svg;
+            this.pictureBox2.Image = global::UwUTools.Properties.Resources.PPSSPP_logo_svg;
             this.pictureBox2.Location = new System.Drawing.Point(17, 14);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(143, 130);

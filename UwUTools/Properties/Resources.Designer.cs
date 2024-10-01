@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UwUTools_Prototype.Properties {
+namespace UwUTools.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace UwUTools_Prototype.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("UwUTools_Prototype.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("UwUTools.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -153,6 +153,16 @@ namespace UwUTools_Prototype.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cutie {
+            get {
+                object obj = ResourceManager.GetObject("cutie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Desmume {
             get {
                 object obj = ResourceManager.GetObject("Desmume", resourceCulture);
@@ -213,6 +223,16 @@ namespace UwUTools_Prototype.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap explorerCUDA {
+            get {
+                object obj = ResourceManager.GetObject("explorerCUDA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Firefox_icon {
             get {
                 object obj = ResourceManager.GetObject("Firefox icon", resourceCulture);
@@ -266,6 +286,16 @@ namespace UwUTools_Prototype.Properties {
         internal static System.Drawing.Bitmap icons8_desktop_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-desktop-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_download_96 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-download-96", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -356,6 +386,16 @@ namespace UwUTools_Prototype.Properties {
         internal static System.Drawing.Bitmap icons8_track_and_field_96__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-track-and-field-96 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_zip_96 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-zip-96", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

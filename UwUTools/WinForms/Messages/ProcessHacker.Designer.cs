@@ -134,7 +134,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::UwUTools_Prototype.Properties.Resources.Process_Hacker;
+            this.pictureBox2.Image = global::UwUTools.Properties.Resources.Process_Hacker;
             this.pictureBox2.Location = new System.Drawing.Point(17, 14);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(143, 130);
@@ -189,7 +189,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::UwUTools_Prototype.Properties.Resources.Process_Hacker;
+            this.pictureBox1.Image = global::UwUTools.Properties.Resources.Process_Hacker;
             this.pictureBox1.Location = new System.Drawing.Point(17, 14);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(143, 130);

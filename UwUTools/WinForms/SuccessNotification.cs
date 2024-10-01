@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using UwUTools_Prototype.Properties;
+using UwUTools.Properties;
 
 namespace UwUTools_Prototype.WinForms
 {
